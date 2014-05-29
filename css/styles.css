@@ -3,6 +3,11 @@ margin: 0px;
 padding: 0px;
 }
 
+#main_wrapper{
+    background: url(images/main_bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
 #main_nav{
     text-align: center;
 
@@ -43,4 +48,22 @@ padding: 0px;
     border: 1px solid darkgrey;
     width: 1000px;
     margin: 20px auto;
+}
+
+#about_pile{
+    margin-left: auto;
+    margin-right: auto;
+    width: 590px;
+}
+
+#pitou{
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+}
+
+#chry_pronoun{
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
 }
