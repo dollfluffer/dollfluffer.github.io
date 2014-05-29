@@ -4,33 +4,42 @@
       <title>Chry's Toybox</title>
       <meta charset='utf-8'>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-      <link href="css/bootstrap.min.css" rel = "stylesheet" >
+      <link href="css/semantic.min.css" rel = "stylesheet" >
       <link href="css/styles.css" rel = "stylesheet" >
       <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-      <script src="js/bootstrap.js"></script>
+      <script src="js/semantic.js"></script>
    </head>
     
 <body>
     <div id="main_wrapper">
+        <div class="ui secondary pointing menu">
+            <a class="active item">
+                <i class="home icon"></i> Home
+            </a>
+            <a class="item">
+                <i class="mail icon"></i> Messages
+            </a>
+            <a class="item">
+                <i class="user icon"></i> Friends
+            </a>
 
-        <div class="page-header">
-            <h1>Hmph! <small>B-Baka!</small></h1>
+            </div>
+        </div>
         </div>
 
-        <img src="images/liltaiga.png" />
-
-
-
-        <ul class="nav nav-tabs">
-            <li class="active"><a href="http://www.dollfluffer.github.io">Home</a></li>
-            <li><a href="http://dollfluffer.tumblr.com/">Blog</a></li>
-            <li><a href="https://twitter.com/dollfluffer">Twitter</a></li>
-            <li><a href="http://ask.fm/chryoxis">Ask.fm</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="https://github.com/dollfluffer">Github</a></li>
-        </ul>
+        <div class="ui horizontal icon divider">
+            <i class="circular heart icon"></i>
         </div>
-    </body>
+
+        <img id="circle_avatar" class="circular ui image" src="images/avatar.PNG">
+        <h1 id="chry_h1" >Chryoxis</h1>
+
+        <img id="taiga" class="ui small image" src="images/liltaiga.png">
+
+        <div id="bottom_tagline" class="ui inverted segment">
+            <p>Producer, Designer, Developer, if you're curious about anything else check my about page or ask me a question.</p>
+            </div>
+
     </div>
+    </body>
 </html>

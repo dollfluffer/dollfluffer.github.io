@@ -3,8 +3,20 @@ margin: 0px;
 padding: 0px;
 }
 
-body{
+#chry_h1{
     text-align: center;
+}
+
+#circle_avatar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom_tagline{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
 
 #main_wrapper{
