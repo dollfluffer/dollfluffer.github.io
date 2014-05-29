@@ -5,12 +5,17 @@ padding: 0px;
 
 #main_nav{
     text-align: center;
+
 }
 
 #chry_h1{
     text-align: center;
 }
 
+#home_baka{
+    text-align: center;
+    font-style: italic ;
+}
 
 #taiga{
     margin-left: auto;
